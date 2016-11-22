@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "permissions" : ["management", "storage", "topSites"],
     "chrome_url_overrides" : {
-        "newtab": "start.html"
+        "newtab": "newtab.html"
     },
     "content_security_policy": "script-src 'self' https://en.wikipedia.org https://api.duckduckgo.com; object-src 'self'",
     "icons": { "48": "icon.png" },
